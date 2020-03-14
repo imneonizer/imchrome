@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+imchrome/__init__.py
+imchrome/imchrome.py
+imchrome.egg-info/PKG-INFO
+imchrome.egg-info/SOURCES.txt
+imchrome.egg-info/dependency_links.txt
+imchrome.egg-info/requires.txt
+imchrome.egg-info/top_level.txt
