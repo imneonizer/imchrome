@@ -1,12 +1,12 @@
 Metadata-Version: 1.1
 Name: imchrome
-Version: 0.1
+Version: 0.2
 Summary: This module provides easy to use functionalities for using selenium based chrome browser
 Home-page: https://github.com/imneonizer/imchrome
 Author: Nitin Rai
 Author-email: mneonizer@gmail.com
 License: MIT
-Download-URL: https://github.com/imneonizer/imchrome/archive/v0.1.tar.gz
+Download-URL: https://github.com/imneonizer/imchrome/archive/v0.2.tar.gz
 Description: UNKNOWN
 Keywords: selenium,web testing,chromium,chrome,crawler
 Platform: UNKNOWN

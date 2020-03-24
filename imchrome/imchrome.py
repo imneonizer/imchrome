@@ -11,11 +11,11 @@ class ImChrome():
         # download chromedriver for your platform
         # https://chromedriver.chromium.org/downloads
         if sys.platform.lower() == "linux" or sys.platform.lower() == "linux2":
-            self.chromedriver = "imchrome/chromedriver/linux64/chromedriver"
+            self.chromedriver = "chromedriver/linux64/chromedriver"
         elif sys.platform.lower() == "win32":
-            self.chromedriver = "imchrome/chromedriver/win32/chromedriver.exe"
+            self.chromedriver = "chromedriver/win32/chromedriver.exe"
         elif sys.platform.lower() == "darwin":
-            self.chromedriver = "imchrome/chromedriver/mac64/chromedriver"
+            self.chromedriver = "chromedriver/mac64/chromedriver"
 
         self.chrome_options = Options()
         self.caps = DesiredCapabilities().CHROME
@@ -34,7 +34,7 @@ class ImChrome():
             load_image = kwargs['load_image'] if 'load_image' in kwargs else True
 
             #automatically launch chrome at class initilization
-            self.launch_chrome(chromedriver=chrome_options, headless=headless, chrome_options=chrome_options, mode=mode, load_image=load_image)
+            self.launch_chrome(chromedriver=chromedriver, headless=headless, chrome_options=chrome_options, mode=mode, load_image=load_image)
 
 
     def launch_chrome(self, chromedriver=None, headless=False, chrome_options=None, mode='normal', load_image=True):
